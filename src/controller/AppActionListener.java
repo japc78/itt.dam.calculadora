@@ -104,7 +104,7 @@ public class AppActionListener implements ActionListener {
 						} else if (operation == '/') {
 							// Se comprueba que si el segundo número es 0
 							result = (Double.parseDouble(result) != 0 )? String.valueOf(numberTmp/Double.parseDouble(result)):"Error / por 0";
-							i.getPanelScreen().getHistory().setText(" ");
+							// i.getPanelScreen().getHistory().setText(" ");
 						}
 
 						result = isInteger(result);
@@ -248,7 +248,7 @@ public class AppActionListener implements ActionListener {
 				history(c);
 				// Se comprueba que si el segundo número es 0
 				result = (Double.parseDouble(result) != 0 )? String.valueOf(numberTmp/Double.parseDouble(result)):"Error / por 0";
-				i.getPanelScreen().getHistory().setText(" ");
+				// i.getPanelScreen().getHistory().setText(" ");
 
 			}
 
