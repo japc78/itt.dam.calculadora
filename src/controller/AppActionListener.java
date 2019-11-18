@@ -147,7 +147,7 @@ public class AppActionListener implements ActionListener {
 		if (e.getSource().equals(i.getPanelButtons().getBtns().get(0))) {
 
 			if (login) {
-				final ImageIcon icon = new ImageIcon("src/resources/bender.png");
+				final ImageIcon icon = new ImageIcon("resources/bender.png");
 				JOptionPane.showMessageDialog(null,"Usuario Bender", "user", JOptionPane.PLAIN_MESSAGE, icon);
 			} else {
 				JOptionPane.showMessageDialog(null,"Funcionalidad no disponible","Alert!",
@@ -162,7 +162,7 @@ public class AppActionListener implements ActionListener {
 
 			String pass = "bender";
 
-			Image userImg = new ImageIcon("src/resources/human.png").getImage();
+			Image userImg = new ImageIcon("resources/human.png").getImage();
 			JLabel lblImage = new JLabel(new ImageIcon(userImg.getScaledInstance(50, 50, Image.SCALE_SMOOTH)));
 			panelLogin.add(lblImage);
 

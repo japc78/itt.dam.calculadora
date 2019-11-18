@@ -23,8 +23,8 @@ public class AppStyles {
 	public AppStyles() {
 		// Archivos externos
 		try {
-			font = Font.createFont(Font.TRUETYPE_FONT, getClass().getResourceAsStream("../resources/Quantico-Italic.ttf"));
-			imgBtnRobot = new ImageIcon("src/resources/avatar.png").getImage();
+			font = Font.createFont(Font.TRUETYPE_FONT, getClass().getResourceAsStream("../font/Quantico-Italic.ttf"));
+			imgBtnRobot = new ImageIcon("resources/avatar.png").getImage();
 		} catch (FontFormatException | IOException e)  {
 			e.printStackTrace();
 		}

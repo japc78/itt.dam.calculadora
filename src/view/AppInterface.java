@@ -37,7 +37,7 @@ public class AppInterface extends JFrame {
 		super("Act3 - GUI");
 
 		// Appico
-		setIconImage(Toolkit.getDefaultToolkit().getImage("src/resources/rocket.png"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("resources/rocket.png"));
 
 		// Se define en el tamaño de la ventana
 		setSize(400, 480);
